@@ -11,6 +11,7 @@ import { CardsComponent } from './dashboard/cards/cards.component';
 import { VendasComponent } from './vendas/vendas.component';
 import { InputComponent } from './shared/input/input.component';
 import { SelectComponent } from './shared/select/select.component';
+import { CadastroComponent } from './vendas/cadastro/cadastro.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SelectComponent } from './shared/select/select.component';
     CardsComponent,
     VendasComponent,
     InputComponent,
-    SelectComponent
+    SelectComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
