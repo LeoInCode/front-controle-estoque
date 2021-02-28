@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-select',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./select.component.css']
 })
 export class SelectComponent implements OnInit {
+
+  @Input() descricao: string
+  @Input() optionDefault: string
 
   constructor() { }
 

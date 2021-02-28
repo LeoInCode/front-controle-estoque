@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
@@ -24,6 +25,7 @@ import { SelectComponent } from './shared/select/select.component';
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule,
     AppRoutingModule
   ],
   providers: [],
