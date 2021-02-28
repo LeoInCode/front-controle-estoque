@@ -1,0 +1,27 @@
+.space{
+  width: 23%;
+  border: 1px solid #000
+}
+
+.title-card{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.date{
+  font-size: 0.75rem;
+  font-weight: initial;
+}
+
+.number {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 42px;
+}
+
+.number-info {
+  color: #17A2B8;
+}
+
+.number-danger {
+  color: #DC3545;}
