@@ -12,6 +12,8 @@ import { VendasComponent } from './vendas/vendas.component';
 import { InputComponent } from './shared/input/input.component';
 import { SelectComponent } from './shared/select/select.component';
 import { CadastroComponent } from './vendas/cadastro/cadastro.component';
+import { ListCategoriaComponent } from './categoria/list-categoria/list-categoria.component';
+import { NavigationComponent } from './shared/navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CadastroComponent } from './vendas/cadastro/cadastro.component';
     VendasComponent,
     InputComponent,
     SelectComponent,
-    CadastroComponent
+    CadastroComponent,
+    ListCategoriaComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
