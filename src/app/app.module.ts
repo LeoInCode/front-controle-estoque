@@ -7,6 +7,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TitleComponent } from './shared/title/title.component';
 import { CardsComponent } from './dashboard/cards/cards.component';
+import { VendasComponent } from './vendas/vendas.component';
+import { InputComponent } from './shared/input/input.component';
+import { SelectComponent } from './shared/select/select.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CardsComponent } from './dashboard/cards/cards.component';
     NavBarComponent,
     DashboardComponent,
     TitleComponent,
-    CardsComponent
+    CardsComponent,
+    VendasComponent,
+    InputComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,
