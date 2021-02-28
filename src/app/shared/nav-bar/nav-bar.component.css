@@ -1,0 +1,17 @@
+.nav-color {
+  background-color: #7749F8;
+}
+
+.logo {
+  width: 107px;
+}
+.current {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.link-menu {
+  color: #F2F2F2;
+  font-size: 12px;
+}
