@@ -1,3 +1,4 @@
+import { EditProdutoComponent } from './produto/edit-produto/edit-produto.component';
 import { ListProdutoComponent } from './produto/list-produto/list-produto.component';
 import { CadCategoriaComponent } from './categoria/cad-categoria/cad-categoria.component';
 import { EditCategoriaComponent } from './categoria/edit-categoria/edit-categoria.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
     {path: 'cadastros/edit-categoria', component: EditCategoriaComponent},
     {path: 'cadastros/cad-categoria', component: CadCategoriaComponent},
     {path: 'cadastros/list-produto', component: ListProdutoComponent},
+    {path: 'cadastros/edit-produto', component: EditProdutoComponent},
 ];
 
 @NgModule({
