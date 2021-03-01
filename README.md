@@ -4,9 +4,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Este site web está sendo desenvolvido como exemplo para os alunos do grupo de estudo ngDevs. O protótipo das telas foi desenvolvido por [Juliana Aintablian](https://github.com/JuAintablian "Juliana Aintablian").
 
-Exemplos
-<img src="src/assets/dashboard.png"/>
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
