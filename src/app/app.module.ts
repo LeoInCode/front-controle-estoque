@@ -15,6 +15,8 @@ import { CadastroComponent } from './vendas/cadastro/cadastro.component';
 import { ListCategoriaComponent } from './categoria/list-categoria/list-categoria.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { EditCategoriaComponent } from './categoria/edit-categoria/edit-categoria.component';
+import { CadCategoriaComponent } from './categoria/cad-categoria/cad-categoria.component';
+import { FormsCategoriaComponent } from './categoria/forms-categoria/forms-categoria.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { EditCategoriaComponent } from './categoria/edit-categoria/edit-categori
     CadastroComponent,
     ListCategoriaComponent,
     NavigationComponent,
-    EditCategoriaComponent
+    EditCategoriaComponent,
+    CadCategoriaComponent,
+    FormsCategoriaComponent
   ],
   imports: [
     BrowserModule,
