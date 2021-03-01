@@ -1,3 +1,4 @@
+import { EditCategoriaComponent } from './categoria/edit-categoria/edit-categoria.component';
 import { ListCategoriaComponent } from './categoria/list-categoria/list-categoria.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -7,7 +8,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 const routes: Routes = [
     {path: '', component: DashboardComponent},
     {path: 'vendas', component: VendasComponent},
-    {path: 'cadastros/categoria', component: ListCategoriaComponent},
+    {path: 'cadastros/list-categoria', component: ListCategoriaComponent},
+    {path: 'cadastros/edit-categoria', component: EditCategoriaComponent},
 ];
 
 @NgModule({

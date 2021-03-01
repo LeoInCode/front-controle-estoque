@@ -14,6 +14,7 @@ import { SelectComponent } from './shared/select/select.component';
 import { CadastroComponent } from './vendas/cadastro/cadastro.component';
 import { ListCategoriaComponent } from './categoria/list-categoria/list-categoria.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
+import { EditCategoriaComponent } from './categoria/edit-categoria/edit-categoria.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
     SelectComponent,
     CadastroComponent,
     ListCategoriaComponent,
-    NavigationComponent
+    NavigationComponent,
+    EditCategoriaComponent
   ],
   imports: [
     BrowserModule,

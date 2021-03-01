@@ -11,6 +11,7 @@ export class InputComponent implements OnInit {
   @Input() descricao: string
   @Input() placeholder: string
   @Input() type: string
+  @Input() read: boolean = false
 
   constructor() { }
 
