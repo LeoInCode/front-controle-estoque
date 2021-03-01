@@ -17,6 +17,7 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
 import { EditCategoriaComponent } from './categoria/edit-categoria/edit-categoria.component';
 import { CadCategoriaComponent } from './categoria/cad-categoria/cad-categoria.component';
 import { FormsCategoriaComponent } from './categoria/forms-categoria/forms-categoria.component';
+import { ListProdutoComponent } from './produto/list-produto/list-produto.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FormsCategoriaComponent } from './categoria/forms-categoria/forms-categ
     NavigationComponent,
     EditCategoriaComponent,
     CadCategoriaComponent,
-    FormsCategoriaComponent
+    FormsCategoriaComponent,
+    ListProdutoComponent
   ],
   imports: [
     BrowserModule,

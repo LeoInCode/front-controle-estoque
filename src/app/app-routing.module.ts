@@ -1,3 +1,4 @@
+import { ListProdutoComponent } from './produto/list-produto/list-produto.component';
 import { CadCategoriaComponent } from './categoria/cad-categoria/cad-categoria.component';
 import { EditCategoriaComponent } from './categoria/edit-categoria/edit-categoria.component';
 import { ListCategoriaComponent } from './categoria/list-categoria/list-categoria.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
     {path: 'cadastros/list-categoria', component: ListCategoriaComponent},
     {path: 'cadastros/edit-categoria', component: EditCategoriaComponent},
     {path: 'cadastros/cad-categoria', component: CadCategoriaComponent},
+    {path: 'cadastros/list-produto', component: ListProdutoComponent},
 ];
 
 @NgModule({
