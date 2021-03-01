@@ -8,6 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class FormsProdutoComponent implements OnInit {
 
   @Input() title: string
+  @Input() type: string
+  @Input() descricao: string
+  @Input() placeholder: string
 
   constructor() { }
 

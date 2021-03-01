@@ -20,6 +20,7 @@ import { FormsCategoriaComponent } from './categoria/forms-categoria/forms-categ
 import { ListProdutoComponent } from './produto/list-produto/list-produto.component';
 import { EditProdutoComponent } from './produto/edit-produto/edit-produto.component';
 import { FormsProdutoComponent } from './produto/forms-produto/forms-produto.component';
+import { CadProdutoComponent } from './produto/cad-produto/cad-produto.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { FormsProdutoComponent } from './produto/forms-produto/forms-produto.com
     FormsCategoriaComponent,
     ListProdutoComponent,
     EditProdutoComponent,
-    FormsProdutoComponent
+    FormsProdutoComponent,
+    CadProdutoComponent
   ],
   imports: [
     BrowserModule,
